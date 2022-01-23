@@ -1,0 +1,82 @@
+:root {
+    --primary-color: #red;
+    --text-color: #333333;
+}
+
+::selection {
+    background-color: #3fd0d4;
+    color: #fff;
+}
+
+* {
+   
+    box-sizing: border-box;
+}
+    
+html {
+    font-family: 'Roboto Relab';
+    font-family: 'Satisfy', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    padding: 0px 5px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.grid {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid-1300 {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+   
+}
+
+.grid-1300__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.grid-1300__column {
+    width: 25%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.grid__column {
+    padding: 0 10px;
+}
+
+.grid__column-5 {
+    width: 20%;
+}
+
+.grid__row-p20 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.grid__column-3-p20 {
+    width: 33.33334%;
+    padding: 0 20px;
+}

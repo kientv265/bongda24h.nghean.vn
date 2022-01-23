@@ -1,0 +1,48 @@
+.tieudebaibao {
+    color: red;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 30px;
+   }
+/* .doc-tin-tuc{
+    display: flex;
+
+} */
+.custom-h2{
+
+.bao-bongda{
+    max-width: 1300px;
+}
+.doc-tin-tuc{
+    display: flex;
+    align-items:flex-start;
+}
+.moredetails-news{
+    font-family: 'Roboto Slab',sans-serif;
+    font-size: 17px;
+    color: #0000;
+    text-align: left;
+    font-weight: normal;
+}
+.tinmoinhat{
+    font-size: 18px;
+}
+.tinmoinhat li:hover{
+    color: var(--primary-color);
+}
+.tinmoinhat li{
+    margin-left: 100px;
+}
+.tinnendoc {
+    display: flex;
+    max-width: 60%;
+    margin-left: 15px;
+}
+.tinsoc {
+    box-sizing: border-box;
+    width: 100px;
+}
+    
+.doc-them li:hover{
+    color: red;
+}
+
